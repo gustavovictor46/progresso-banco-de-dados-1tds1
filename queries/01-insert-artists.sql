@@ -7,7 +7,7 @@ CREATE TABLE artistas (
     ano_lancamento INTEGER, 
     pais_origem VARCHAR(50),
     musica_famosa VARCHAR(50),
-    ativo BOOLEAN
+    ativo BOOLEAN       
 );
 
 INSERT INTO artistas (nome, tipo, membros, genero_musical, ano_lancamento, pais_origem, musica_famosa, ativo)
